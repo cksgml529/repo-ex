@@ -21,9 +21,9 @@ h2{
 
 #booked{
     color: #fff;
-    background-color: red;
-    text-decoration: none;
-    font-size: 27px;
+    background-color: brown;
+    text-decoration: line-through;
+    font-size: 20px;
    
 }
 #booked:hover{
@@ -34,16 +34,18 @@ h2{
 #detail{
     color: purple;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
+
 }
 #red{
     color: red;
+    font-size: 13px;
 }
 .season{
     background-color: orange;
 }
 #notice{
     color: red;
-    font-size: 10px;
+    font-size: 13px;
 }
