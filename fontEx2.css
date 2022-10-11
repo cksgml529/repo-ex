@@ -1,0 +1,48 @@
+@charset "utf-8";
+#txt1{
+    text-align: center;
+}
+#txt2{
+    
+    background-color: rgb(231, 222, 222);
+}
+
+h1{
+    background: #000;
+    color: #fff;
+    
+}
+
+h2{
+    color: #fff;
+    background-color: teal;
+    text-align: right;
+}
+
+#booked{
+    color: #fff;
+    background-color: red;
+    text-decoration: none;
+    font-size: 27px;
+   
+}
+#booked:hover{
+    color: blue;
+    background-color: aquamarine;
+}
+
+#detail{
+    color: purple;
+    text-align: center;
+    font-size: 25px;
+}
+#red{
+    color: red;
+}
+.season{
+    background-color: orange;
+}
+#notice{
+    color: red;
+    font-size: 10px;
+}
