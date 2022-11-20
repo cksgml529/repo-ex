@@ -2,14 +2,14 @@
 
 html{
     font-family: 'Pretendard',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
-    font-size: 14px;
+    font-size: 1.2em;
     text-transform: capitalize;
 }
 
 
 /* *****************header********************* */
 header{
-    width: 100%;
+    width: 100%; height: 10%;
     text-decoration: none; display: flex;
     border-bottom: 1px solid #000;
     position: absolute;
@@ -23,32 +23,38 @@ header h1 a{
 }
 
 nav{
-    width: 100%;
+    width: 100%; height: 10%;
     position: absolute;
     display: flex;
     justify-content: flex-end;
  
 }
 nav ul{
-    text-transform: uppercase; font-size: 1.5em; font-weight: bold;
-    display: flex;
+    text-transform: uppercase; font-size: 1.3em; font-weight: bold;
+    display: flex; 
 }
 nav li:hover a{
     background-color: var(--font-color);
     color: #fff;
 }
 nav ul li a{
-    width: 100%; padding: 1.458vw 1.042vw;display: block;
+    width: 100%; height: 100%;
     text-decoration: none; color: var(--font-color);
+    /* padding: 1.458vw 1.042vw; */
+    padding: 2vw 1.042vw;
+    display: block;
 }
 nav ul li .drop_menu {display: none;}
 nav #user{
-    font-weight: normal;
+    font-weight: normal; font-size: 1.2em;
 }
+nav #user li{overflow: hidden;}
 nav #user li a{
-    font-weight: normal; display: block;
-    /* padding: 25px 1.042vw; */
-    padding: 1.458vw 1.042vw
+    height: 100%;
+    font-weight: normal; 
+    /* padding: 1.458vw 1.042vw; */
+    padding: 2vw 1.042vw;
+    display: block;
 }
 /* header .list{
     width: 100%; margin-left: auto;
@@ -346,6 +352,20 @@ main .box3 .item_box h3{
 main .box3 .item .item_box p{
     margin-bottom: 1.693vw;
 }
+/* *************event**************** */
+main .box3 .item .item_box:hover{
+    box-shadow:
+  0px 1.4px 2.2px rgba(0, 0, 0, 0.036),
+  0px 3.5px 5.3px rgba(0, 0, 0, 0.04),
+  0px 6.5px 10px rgba(0, 0, 0, 0.035),
+  0px 11.6px 17.9px rgba(0, 0, 0, 0.03),
+  0px 21.7px 33.4px rgba(0, 0, 0, 0.03),
+  0px 52px 80px rgba(0, 0, 0, 0.07)
+;
+
+}
+
+/* *************event**************** */
 main .box4{
     background-color: #eee;
 }
@@ -516,7 +536,7 @@ footer{
     text-align: center; line-height: 30px;
     position: relative;
 }
-footer p{padding: 45px 0 65px;}
+footer p{padding: 45px 0 65px; line-height: 2.2;}
 footer .top_btn{
     width: 50px; height: 50px;
     background-color: var(--font-color);
